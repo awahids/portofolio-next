@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Company A",
+    "role": "Backend Developer",
+    "startDate": "2022-08-29",
+    "endDate": "",
+    "startDateString": "August, 2022",
+    "endDateString": "Present",
+    "description": "Developing backend services using Node.js and TypeScript."
+  },
+  {
+    "company": "Company B",
+    "role": "Junior Developer",
+    "startDate": "2022-01-02",
+    "endDate": "2022-08-31",
+    "startDateString": "January, 2022",
+    "endDateString": "August, 2022",
+    "description": "Assisted in the development of web applications using JavaScript."
+  }
+]
