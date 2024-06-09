@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -45,9 +46,11 @@ const Hero = () => {
         <div className="md:hidden flex flex-col items-center mb-8">
           {/* Photo */}
           <div className="rounded-full border-4 border-white shadow-lg overflow-hidden" style={{ width: '200px', height: '200px' }}>
-            <img
+            <Image
               src="https://awahids.my.id/assets/img/aw.png"
               alt="Wahid's Photo"
+              width={200}
+              height={200}
               className="w-full"
               loading="lazy"
             />
@@ -93,9 +96,11 @@ const Hero = () => {
         {/* Image for desktop */}
         <div className="hidden md:flex justify-end">
           <div className="rounded-full border-4 border-white shadow-lg overflow-hidden" style={{ width: '256px', height: '256px' }}>
-            <img
+            <Image
               src="https://awahids.my.id/assets/img/aw.png"
               alt="Wahid's Photo"
+              width={256}
+              height={256}
               className="w-full"
               loading="lazy"
             />
