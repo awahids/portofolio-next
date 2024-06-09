@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useLoadingContext } from '../context/LoadingContext';
-import Hero from './Hero';
-import Profile from './Profile';
+import Hero from './HeroSection/Hero';
+import Profile from './ProfileSection/Profile';
 import ScrollToTop from './ScrollToTop';
+import Experience from './ExperienceSection/Experience';
 
 const AppContent = () => {
   const { setLoading } = useLoadingContext();
@@ -19,6 +20,7 @@ const AppContent = () => {
     <>
       <Hero />
       <Profile />
+      <Experience />
       <ScrollToTop />
     </>
   );

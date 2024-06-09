@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Image from 'next/image';
+import styles from './assets/styles/Hero.module.css';  // Import the CSS module
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Hi, I'm Wahid
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-4">
+          <h3 className={`text-xl md:text-2xl text-gray-700 mb-4 ${styles.typingAnimation}`}>
             Backend Developer
-          </p>
+          </h3>
           <p className="text-lg md:text-xl text-gray-800 mb-8">
             I have just over a year of experience as a backend developer and specialize in using
             Node.js, Typescript, and Javascript. Please don't hesitate to contact me for further
@@ -52,7 +53,8 @@ const Hero = () => {
               width={200}
               height={200}
               className="w-full"
-              loading="lazy"
+              // loading="lazy"
+              priority
             />
           </div>
 
@@ -82,9 +84,9 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Hi, I'm Wahid
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-4">
+            <h3 className={`text-xl md:text-2xl text-gray-700 mb-4 ${styles.typingAnimation}`}>
               Backend Developer
-            </p>
+            </h3>
             <p className="text-lg md:text-xl text-gray-800 mb-8">
               I have just over a year of experience as a backend developer and specialize in using
               Node.js, Typescript, and Javascript. Please don't hesitate to contact me for further
@@ -102,7 +104,8 @@ const Hero = () => {
               width={256}
               height={256}
               className="w-full"
-              loading="lazy"
+              // loading="lazy"
+              priority
             />
           </div>
         </div>
