@@ -61,7 +61,7 @@ const Hero = () => {
           {/* GitHub and LinkedIn icons for mobile */}
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://github.com/your-github"
+              href="https://github.com/awahids"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-500 transition-all duration-300"
@@ -70,7 +70,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/your-linkedin"
+              href="https://linkedin.com/in/awahids"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-400 transition-all duration-300"
