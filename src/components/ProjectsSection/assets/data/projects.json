@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1",
+    "image": "/images/abc.png",
+    "technologies": [
+      "React",
+      "Node.js",
+      "CSS"
+    ],
+    "description": "Description for Project 1",
+    "demoLink": "http://example.com"
+  },
+  {
+    "id": 2,
+    "name": "Project 2",
+    "image": "/images/abc.png",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "description": "Description for Project 2",
+    "demoLink": "http://example.com"
+  },
+  {
+    "id": 3,
+    "name": "Project 3",
+    "image": "/images/abc.png",
+    "technologies": [
+      "Golang",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Description for Project 3",
+    "demoLink": "http://example.com"
+  }
+]
